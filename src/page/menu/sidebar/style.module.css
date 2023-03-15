@@ -1,0 +1,73 @@
+.root{
+    position: relative;
+    background-image: linear-gradient(to right,#141e30,#243b55)!important;
+    height:100vh;
+    direction: rtl;
+    background-size: cover;
+    background-position: center center;
+}
+.sidebarul{
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+}
+.background_img_sidebar{
+    background: url(../../../../public/images/sidebar-1.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .08;
+    background-size: cover;
+}
+.text_side{
+    list-style: none;
+    font-family: 'IRANSans';
+    position: relative;
+    z-index: 99999;
+}
+.text_side:hover{
+    color: #fff;
+    width: 100%;
+}
+.hover_a{
+    transition: .5s;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(255,255,255,.9);
+    display: block;
+    padding: 10px;
+    padding-right: 45px;
+}
+.hover_a:hover{
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+    display: block;
+    background-color: rgba(255,255,255,.1);
+
+}
+.logo_sidebar{
+    height: 50px;
+    z-index: 9999999;
+    opacity: 1;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 9px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+.icon_side{
+    position: absolute;
+    text-shadow: 1px 0 1px #ccc;
+    font-weight: 500;
+    right: 11px;
+}
+.icon_hamberger{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    z-index: 9999;
+}

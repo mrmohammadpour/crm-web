@@ -1,0 +1,44 @@
+.root {
+  background: #4c6ef8;
+  height: 60px;
+  position: relative;
+  z-index: 9999;
+  /* border-radius: 0 0 10px 10px; */
+}
+.root::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 235px;
+  background: #4c6ef8;
+  content: '';
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+.header {
+  /* box-shadow: 5px 0px 15px 0px #000; */
+}
+.bg_icon{
+  color:#fff ;
+}
+.pulse_icon{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  padding-top: 11px;
+  padding-right: 5px;
+}
+
+.text_avatar{
+   font-family: 'IRANSans';
+   font-size: 15px;
+   text-shadow: 1px 1px 1px #ccc;
+   color: #fff;
+   padding-left: 5px;
+   padding-top: 10px;
+   z-index: 9999;
+}

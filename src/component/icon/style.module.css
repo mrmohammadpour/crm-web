@@ -1,0 +1,21 @@
+
+  .root {
+    background:'#fff';
+    font-family: 'IRANSans';
+
+  }
+  
+.dddd{
+  background:#fff !important;
+  color: red !important;
+}
+
+.boxto{
+  width: 40px !important;
+  height: 40px;
+  border: 1px solid  #545454;
+  border-radius: 50%;
+  padding: 3px;
+  background: #ebebeb;
+  margin-top: 5px;
+}

@@ -1,0 +1,11 @@
+.root{
+}
+.titr_box{
+    font-size: 23px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #b5b5b5;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+}

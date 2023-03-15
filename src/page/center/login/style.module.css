@@ -1,0 +1,132 @@
+
+.root{
+    background: #fff;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #000;
+    font-family: iransans !important;
+
+}
+.textlogin{
+    font-size: 18px;
+
+}
+.textwel{
+    font-size: 15px;
+}
+.bg_login{
+    background:#03a9f4 ;
+    text-align: center;
+   
+}
+.box_login{
+    margin: auto;
+    width: 260px;
+    height: 400px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    position: relative;
+    margin-top: 35px;
+}
+.box_img img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999;
+    top: -40px;
+    right: 32%;
+    border: 1px solid #ccc;
+}
+.bg_img_login{
+    background:#03a9f4 ;
+}
+.title_login{
+    padding-top: 65px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ccc;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.value_name{
+    margin-top: 50%;
+    border-bottom: 2px solid #03a9f4 !important;
+    border: none;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #ccc;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.value_pass{
+    margin-top: 10px;
+    border-bottom: 2px solid #03a9f4 !important;
+    border: none; 
+    padding: 5px;
+    text-shadow: 1px 1px 1px #ccc;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.parse_name{
+    position: absolute;
+    bottom: 0px;
+    left: 24px;
+}
+.box_value_name{
+    position: relative;
+
+}
+.login_button{
+    margin-top: 15px;
+    padding:8px 18px 8px 18px;
+    text-shadow: 1px 1px 1px #ccc;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: iransans !important;
+    background: #03a9f4;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: .6s;
+}
+.login_button:hover{
+    margin-top: 15px;
+    padding:8px 18px 8px 18px;
+    text-shadow: 1px 1px 1px #ccc;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: iransans !important;
+    background: #fff ;
+    color: #03a9f4;
+    border-radius: 8px;
+    border: 2px solid #03a9f4;
+    cursor: pointer;
+}
+input:focus {
+    background: #fff;
+    box-shadow: 0 0 0 4px #48b3fb69;
+    outline: none;
+    border-radius: 8px;
+  }
+  .show_hide {
+    position: absolute;
+    left: 25px;
+    top: 30%;
+  }
+  .show-hide i {
+    font-size: 19px;
+    color: #48b3fb;
+    cursor: pointer;
+    transform: translateX(200%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .show-hide i.hide::before {
+    content: 'VisibilityOffIcon';
+  }
+  input:valid ~ .show-hide i {
+    transform: translateX(0);
+  }
+  
